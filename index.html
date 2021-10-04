@@ -15,16 +15,16 @@
         <nav> <!--Navbar-->
             <img class="logo" src="images/shaekLogo4.png" alt="Shaek's logo"/> <!--Logo-->
             <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="main-wrapper">
             <div class="main-text"> <!--Main page text-->
                 <h1>Shaek Abdul</h1>
                 <p>Aspiring Full Stack Developer</p>
-                <div class="button">About me</div> <!--Button links to About me section-->
+                <div class="button"><a href="#about">About me</a></div> <!--Button links to About me section-->
             </div>
             <div class="links"> <!--SVG icons link to LinkedIn and GitHub profiles-->
                 <div><a href="https://www.linkedin.com/in/shaek-abdul-367224135/" class="link">
@@ -37,7 +37,7 @@
         </div>
     
     </section>
-    <section class="about"><!--About me section-->
+    <section id="about" class="about"><!--About me section-->
         <div class="info">
             <h2>About Me</h2>
             <p>Hello. My name is Shaek Abdul. Retail Management professional with a passion for the outdoors, aspiring to be a Full Stack Developer</p>
@@ -46,7 +46,7 @@
             <img class="portrait" src="images/shaekportrait.jpg" alt="Shaek's portrait"/>
         </div>
     </section> 
-    <section class="project"> <!--Projects section-->
+    <section id="projects" class="project"> <!--Projects section-->
         <h2>Projects</h2>
         <div class="project-wrapper">
             <div class="project-card">
@@ -64,14 +64,14 @@
                 <p class="subtext"><a class="project-link" href="https://shaek1.github.io/VanillaJSQuiz/">View here</a></p>
             </div>
             <div class="project-card">
-                <img class="project-icon src="" alt="" />
+                <img class="project-icon" src="" alt="" />
                 <h3>Project Three</h3>
                 <p class="subtext">Coming soon..</p>
                 <hr/>
                 <p class="subtext"></p>
             </div>
             <div class="project-card">
-                <img class="project-icon src="" alt="" />
+                <img class="project-icon" src="" alt="" />
                 <h3>Project Four</h3>
                 <p class="subtext">Coming soon..</p>
                 <hr/>
@@ -79,7 +79,10 @@
             </div>
         </div>
     </section> 
-    <footer></footer> <!--Footer-->
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <p>shaeka8@gmail.com</p>
+    </footer> <!--Footer-->
 
     <script src="src/scripts.js"></script>
 </body>

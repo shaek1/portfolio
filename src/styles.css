@@ -6,6 +6,8 @@ section {
     background-color: white;
 }
 
+
+
 /* Main Section */ 
 .main {
     background-color: rgb(18, 26, 34);
@@ -27,8 +29,10 @@ section {
 }
 
 footer {
-    height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -96,6 +100,10 @@ p {
     margin: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 /* About Me section */
 
@@ -127,6 +135,13 @@ h2 {
     height: 500px;
     box-shadow: 5px 5px 20px rgb(168, 166, 166);
     margin: 10px;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-wrapper {
