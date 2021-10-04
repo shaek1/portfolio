@@ -3,10 +3,7 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
-    border: solid black 1px;
-    font-family: 'Roboto Slab', serif;
 }
 
 /* Main Section */ 
@@ -97,4 +94,76 @@ p {
 .logo {
     height: 150px;
     margin: 20px;
+}
+
+
+/* About Me section */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.portrait {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.portrait-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Project section */
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(168, 166, 166);
+    margin: 10px;
+}
+
+.project-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.project-icon {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+.project-icon-quiz {
+    margin-top: 25px;
+    width: 250px;
+    height: 137.94px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
 }
