@@ -49,8 +49,49 @@ ul {
 }
 
 li {
-    /* width: 200px; */
     text-decoration: none;
+}
+
+.burger {
+    display: none;
+}
+
+.burger:focus {
+    outline: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .burger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #363747;
+        margin: 0px;
+    }
+
+    ul.show {
+        display:block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #363747;
+    }
+
+    .logo {
+        display: none;
+    }
+
 }
 
 h1 {
